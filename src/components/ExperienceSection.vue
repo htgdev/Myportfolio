@@ -59,7 +59,7 @@ const experiences = ref([
   },
   {
     company: 'BarcodeGate',
-    logo: 'src/assets/BarcodeGate.png',
+    logo: '/Myportfolio/src/assets/BarcodeGate.png',
     title: 'Software & Hardware Developer',
     period: 'Jun 2016 – Sep 2022',
     duration: '6 years 4 months',

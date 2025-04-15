@@ -57,18 +57,18 @@ const experiences = ref([
       'Worked on Maltepe Hospital website project.'
     ]
   },
-  // {
-  //   company: 'BarcodeGate',
-  //   logo: '/Myportfolio/src/assets/BarcodeGate.png',
-  //   title: 'Software & Hardware Developer',
-  //   period: 'Jun 2016 – Sep 2022',
-  //   duration: '6 years 4 months',
-  //   details: [
-  //     'Promoted from IT Technician to Full-Stack Developer.',
-  //     'Developed Laravel-based ticketing system for automating hardware support.',
-  //     'Integrated .NET-based solutions for hardware-software automation workflows.'
-  //   ]
-  // },
+  {
+    company: 'BarcodeGate',
+    logo: 'src/assets/BarcodeGate.png',
+    title: 'Software & Hardware Developer',
+    period: 'Jun 2016 – Sep 2022',
+    duration: '6 years 4 months',
+    details: [
+      'Promoted from IT Technician to Full-Stack Developer.',
+      'Developed Laravel-based ticketing system for automating hardware support.',
+      'Integrated .NET-based solutions for hardware-software automation workflows.'
+    ]
+  },
   {
     company: 'Damascus University',
     logo: 'src/assets/Damascus_University.png',

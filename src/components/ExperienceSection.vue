@@ -28,6 +28,8 @@
 <script setup>
 import { ref } from 'vue';
 
+import barcodegateLogo from '../assets/BarcodeGate.png';
+
 // Define the experiences data
 const experiences = ref([
   {
@@ -59,7 +61,7 @@ const experiences = ref([
   },
   {
     company: 'BarcodeGate',
-    logo: '/Myportfolio/src/assets/BarcodeGate.png',
+    logo: barcodegateLogo,
     title: 'Software & Hardware Developer',
     period: 'Jun 2016 – Sep 2022',
     duration: '6 years 4 months',

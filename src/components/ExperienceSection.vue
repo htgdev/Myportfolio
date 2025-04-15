@@ -32,7 +32,7 @@ import { ref } from 'vue';
 const experiences = ref([
   {
     company: 'HTG - Honest Tech Guys',
-    logo: 'src/assets/HTG.png',
+    logo: '/Myportfolio/src/assets/HTG.png',
     title: 'Senior Software Engineer',
     period: 'Jul 2023 – Present',
     duration: '1 year (ongoing)',
@@ -46,7 +46,7 @@ const experiences = ref([
   },
   {
     company: 'SmartWork',
-    logo: 'src/assets/SmartWorks.jpeg',
+    logo: '/Myportfolio/src/assets/SmartWorks.jpeg',
     title: 'Backend Developer',
     period: 'Feb 2023 – Jan 2024',
     duration: '1 year',
@@ -59,7 +59,7 @@ const experiences = ref([
   },
   {
     company: 'BarcodeGate',
-    logo: 'src/assets/BarcodeGate.png',
+    logo: '/Myportfolio/src/assets/BarcodeGate.png',
     title: 'Software & Hardware Developer',
     period: 'Jun 2016 – Sep 2022',
     duration: '6 years 4 months',
@@ -71,7 +71,7 @@ const experiences = ref([
   },
   {
     company: 'Damascus University',
-    logo: 'src/assets/Damascus_University.png',
+    logo: '/Myportfolio/src/assets/Damascus_University.png',
     title: 'C++ and Java Instructor',
     period: 'May 2021 – Oct 2022',
     duration: '1 year 4 months',

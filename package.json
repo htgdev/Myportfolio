@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist -b new -r https://github.com/htgdev/Myportfolio.git"
+    "deploy": "gh-pages -d dist -b newOne -r https://github.com/htgdev/Myportfolio.git"
   },
   "dependencies": {
     "vue": "^3.5.13"

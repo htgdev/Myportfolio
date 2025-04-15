@@ -29,12 +29,15 @@
 import { ref } from 'vue';
 
 import barcodegateLogo from '../assets/BarcodeGate.png';
+import htgLogo from '../assets/HTG.png';
+import damLogo from '../assets/Damascus_University.png';
+import SmartWorkLogo from '../assets/SmartWorks.jpeg';
 
 // Define the experiences data
 const experiences = ref([
   {
     company: 'HTG - Honest Tech Guys',
-    logo: 'src/assets/HTG.png',
+    logo: htgLogo,
     title: 'Senior Software Engineer',
     period: 'Jul 2023 – Present',
     duration: '1 year (ongoing)',
@@ -48,7 +51,7 @@ const experiences = ref([
   },
   {
     company: 'SmartWork',
-    logo: 'src/assets/SmartWorks.jpeg',
+    logo: SmartWorkLogo,
     title: 'Backend Developer',
     period: 'Feb 2023 – Jan 2024',
     duration: '1 year',
@@ -73,7 +76,7 @@ const experiences = ref([
   },
   {
     company: 'Damascus University',
-    logo: 'src/assets/Damascus_University.png',
+    logo: damLogo,
     title: 'C++ and Java Instructor',
     period: 'May 2021 – Oct 2022',
     duration: '1 year 4 months',

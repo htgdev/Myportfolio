@@ -56,9 +56,10 @@
   
   <script setup>
   import { ref } from 'vue';
+  import aboutImage from '../assets/about.png' ;
   
   // Profile image URL - replace with actual image URL in production
-  const profileImage = ref('src/assets/about.png');
+  const profileImage = ref(aboutImage);
   </script>
   
   <style scoped>

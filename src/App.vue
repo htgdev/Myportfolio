@@ -5,6 +5,9 @@
     <About />
     <Skills />
     <ExperienceSection />
+    <Works />
+    <Contact />
+    <FooterBar />
   </div>
 </template>
 
@@ -13,6 +16,9 @@ import PortfolioHero from './components/PortfolioHero.vue';
 import About from './components/About.vue';
 import Skills from './components/Skills.vue';
 import ExperienceSection from './components/ExperienceSection.vue';
+import Contact from './components/Contact.vue';
+import Works from './components/Works.vue';
+import FooterBar from './components/FooterBar.vue';
 
 
 </script>

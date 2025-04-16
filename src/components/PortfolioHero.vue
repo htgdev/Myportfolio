@@ -7,9 +7,9 @@
         <div class="nav-links">
           <a href="#about">About</a>
           <a href="#work">Work</a>
-          <a href="#testimonials">Testimonials</a>
+          <a href="#experience">Experience</a>
           <a href="#contact">Contact</a>
-          <div class="theme-toggle">
+          <!-- <div class="theme-toggle">
             <button aria-label="Toggle dark mode">
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon">
                 <circle cx="12" cy="12" r="5"></circle>
@@ -23,9 +23,9 @@
                 <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
               </svg>
             </button>
-          </div>
+          </div> -->
           <div class="download-button">
-            <a href="#download" class="cv-button">Download CV</a>
+            <a id="download-btn" href="https://drive.google.com/file/d/1ujnDTK3909kRsPvqEE4Obwg9QlhWH2-f/view?usp=sharing" download target="_blank" rel="noopener" class="cv-button">Download CV</a>
           </div>
         </div>
       </nav>
@@ -134,19 +134,24 @@
     align-items: center;
     justify-content: center;
   }
+
+  #download-btn{
+    color: #0a0a16;
+    font-weight: 500;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
   
   .cv-button {
     background-color: #ffffff;
     color: #0a0a16;
     padding: 0.5rem 1rem;
     border-radius: 0.25rem;
-    font-weight: 500;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
+    
   }
   
   .cv-button:hover {
-    background-color: #e0e0e0;
+    background-color: #919191;
   }
   
   /* Hero Section */

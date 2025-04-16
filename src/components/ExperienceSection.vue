@@ -1,6 +1,6 @@
 // ExperienceSection.vue
 <template>
-  <div class="experience-container">
+  <div id="experience" class="experience-container">
     <div class="experience-header">
       <h2>Experience</h2>
     </div>

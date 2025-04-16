@@ -39,13 +39,12 @@
     import stripeLogo from '../assets/stripe-logo.png';
 
     const skills = ref([
-    { name: 'JavaScript', logo: javascriptLogo },
-    { name: 'Vue.js', logo: vueLogo },
-    { name: 'Laravel', logo: laravelLogo },
-    { name: '.NET Core', logo: dotnetLogo },
-    { name: 'PHP', logo: phpLogo },
+    { name: '.NET', logo: dotnetLogo },
     { name: 'C#', logo: csharpLogo },
-
+    { name: 'PHP', logo: phpLogo },
+    { name: 'Laravel', logo: laravelLogo },
+    { name: 'Vue.js', logo: vueLogo },
+    { name: 'JavaScript', logo: javascriptLogo },
     { name: 'Docker', logo: dockerLogo },
     { name: 'AWS', logo: awsLogo },
     { name: 'MySQL', logo: mysqlLogo },

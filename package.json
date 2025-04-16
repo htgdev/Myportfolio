@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist -b last -r https://github.com/htgdev/Myportfolio.git"
+    "deploy": "gh-pages -d dist -b lastOne -r https://github.com/htgdev/Myportfolio.git"
   },
   "dependencies": {
     "lucide-vue-next": "^0.488.0",

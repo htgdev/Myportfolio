@@ -43,6 +43,19 @@ const props = defineProps({
       },
       {
         id: 3,
+        title: 'SNT Global Logistics Sdn. Bhd (Iweb Marketplace)',
+        description: 'An enterprise-level omnichannel logistics and fulfillment management system built for SNT Global Logistics to centralize and automate operations across Southeast Asia’s top marketplaces including Magento, Lazada, Shopee, Shopify, and TikTok. The platform enables real-time product creation, stock syncing per channel, order tracking, and finance data integration with AutoCount. Built with a robust .NET backend and a Next.js frontend for a seamless user experience.',
+        image: SNTimage,
+        technologies: [
+          '.NET', 'C#', 'Next.js', 'REST APIs', 'AutoCount Integration',
+          'Magento', 'Lazada', 'Shopee', 'Shopify', 'TikTok',
+          'Marketplace SDKs', 'SQL Server'
+        ],
+        link: 'https://103.21.32.143:8829/',
+        imagePosition: 'left'
+      },
+      {
+        id: 4,
         title: 'Tealive & Baskbear',
         description: `A comprehensive food and beverage ordering platform built for Tealive and Baskbear brands, supporting over 850 outlets across Malaysia. Users can place orders for pickup or opt for delivery using integrated services like Lalamove, PandaGo, and Grab Express. The backend was developed in Laravel 8, with mobile apps built using Flutter for both Android and iOS. The system includes payment integration via eGHL and POS sync through Xilnex. Deployed on AWS with CI/CD managed via GitLab.<br><br>
         <a href="https://www.tealive.com.my" target="_blank" style="color: #d1d5db;">www.tealive.com.my</a><br>
@@ -57,7 +70,7 @@ const props = defineProps({
         imagePosition: 'left'
       },
       {
-        id: 4,
+        id: 5,
         title: 'CollectCo System Refactoring & Modernization',
         description: 'A full-scale refactoring of CollectCo’s multi-panel logistics platform, including the admin panel, sender panel, customer panel, analytics dashboard, API gateway, and central panel. Migrated legacy PHP 5 codebase to modern PHP 8.2 with Laravel, improving performance, security, and scalability. The system manages nationwide delivery orders across multiple carriers such as DHL, J&T, Flash Express, and more. Deployed on AWS using Elastic Beanstalk with internal JWT-secured microservices communication.',
         image: CollectCo,
@@ -67,19 +80,6 @@ const props = defineProps({
         ],
         link: 'https://collectco.my/',
         imagePosition: 'right'
-      },
-      {
-        id: 5,
-        title: 'SNT Global Logistics Sdn. Bhd (Iweb Marketplace)',
-        description: 'An enterprise-level omnichannel logistics and fulfillment management system built for SNT Global Logistics to centralize and automate operations across Southeast Asia’s top marketplaces including Magento, Lazada, Shopee, Shopify, and TikTok. The platform enables real-time product creation, stock syncing per channel, order tracking, and finance data integration with AutoCount. Built with a robust .NET backend and a Next.js frontend for a seamless user experience.',
-        image: SNTimage,
-        technologies: [
-          '.NET', 'C#', 'Next.js', 'REST APIs', 'AutoCount Integration',
-          'Magento', 'Lazada', 'Shopee', 'Shopify', 'TikTok',
-          'Marketplace SDKs', 'SQL Server'
-        ],
-        link: 'https://103.21.32.143:8829/',
-        imagePosition: 'left'
       },
       {
         id: 6,

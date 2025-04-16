@@ -15,7 +15,7 @@
           <div class="experience-title">{{ job.title }}</div>
           <ul class="experience-details">
             <li v-for="(detail, detailIndex) in job.details" :key="detailIndex">
-              {{ detail }}
+              <span v-html="detail"></span>
             </li>
           </ul>
         </div>
@@ -42,8 +42,8 @@ const experiences = ref([
     period: 'Jul 2023 – Present',
     duration: '1 year (ongoing)',
     details: [
+      'Built internal <strong>Laravel/.Net</strong> based API Gateway with service grouping and custom validators.',
       'Designed and deployed modular API systems for Malaysian F&B and logistics brands.',
-      'Built internal Laravel/.NET-based API Gateway with service grouping and custom validators.',
       'Integrated third-party services such as eGHL, RazerPay, GrabExpress, and Xilnex.',
       'Deployed scalable containerized applications on AWS (EC2, RDS) using Docker.',
       'Mentored junior developers and participated in architectural planning.'
@@ -56,7 +56,7 @@ const experiences = ref([
     period: 'Feb 2023 – Jan 2024',
     duration: '1 year',
     details: [
-      'Developed Laravel backend services for healthcare applications.',
+      'Developed <strong>Laravel/.Net</strong> backend services for many websites applications.',
       'Collaborated with frontend teams to ensure real-time sync and performance.',
       'Managed database optimization and API versioning.',
       'Worked on Maltepe Hospital website project.'
@@ -69,7 +69,7 @@ const experiences = ref([
     period: 'Jun 2016 – Sep 2022',
     duration: '6 years 4 months',
     details: [
-      'Promoted from IT Technician to Full-Stack Developer.',
+      'Promoted from IT Technician to Full-Stack Developer using .NET and C#.',
       'Developed Laravel-based ticketing system for automating hardware support.',
       'Integrated .NET-based solutions for hardware-software automation workflows.'
     ]

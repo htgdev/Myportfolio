@@ -17,16 +17,17 @@ const props = defineProps({
   projects: {
     type: Array,
     default: () => [
-      {
+    {
         id: 1,
-        title: 'AEON Mall Landing Zone',
-        description: 'An internal platform to manage mall operations, supplier registration, unit allocation, and reporting. Designed to streamline AEON’s digital operations with a service-oriented backend and Vue-based frontend.',
+        title: 'AEON Mall Management System',
+        description: 'A full-scale microservices-based platform built for AEON Group to manage suppliers, contracts, onboarding, billing, and marketing. The system features a centralized API Gateway, internal authentication, core service architecture, and multiple services built with Laravel and deployed via Docker and Kubernetes. Admin interfaces are powered by Laravel Filament, while the mobile app is developed with Flutter.',
         image: aeonImage,
         technologies: [
-          'Vue 3', 'PrimeVue', 'Vite', 'Laravel', 
-          '.NET Core', 'MariaDB', 'Docker', 'REST API' , 'MicroServices'
+          'Laravel (Microservices)', 'Filament', 'Flutter', 'MySQL',
+          'Docker', 'Kubernetes', 'API Gateway', 'REST API',
+          'RabbitMQ', 'Elasticsearch (Logs)'
         ],
-        link: '',
+        link: '', // Add live link or documentation if available
         imagePosition: 'left'
       },
       {
@@ -67,7 +68,7 @@ const props = defineProps({
           'Lalamove API', 'PandaGo API', 'Grab Express API'
         ],
         link: '',
-        imagePosition: 'left'
+        imagePosition: 'right'
       },
       {
         id: 5,
@@ -79,7 +80,7 @@ const props = defineProps({
           'MySQL', 'Docker', 'Git', 'Nginx', 'Microservices'
         ],
         link: 'https://collectco.my/',
-        imagePosition: 'right'
+        imagePosition: 'left'
       },
       {
         id: 6,
